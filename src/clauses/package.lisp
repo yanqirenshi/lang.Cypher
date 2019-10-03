@@ -31,5 +31,6 @@
            #:clause-using-scan
            #:clause-where
            #:clause-with
-           #:clause-yield))
+           #:clause-yield)
+  (:export #:get-clause-operator))
 (in-package :lang.cypher.clause)

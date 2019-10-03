@@ -1,5 +1,5 @@
 (defpackage lang.cypher
-  (:use #:cl)
+  (:use #:cl #:lang.cypher.clause)
   (:import-from :alexandria
                 #:when-let))
 (in-package :lang.cypher)
