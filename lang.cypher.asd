@@ -9,9 +9,7 @@
   :depends-on ()
   :components ((:module "src"
                 :components
-                ((:file "package")
-                 (:file "syntax")
-                 (:module "clauses"
+                ((:module "clauses"
                   :components ((:file "package")
                                (:file "util")
                                (:module "clause-operators"
@@ -47,6 +45,10 @@
                                              (:file "clause-drop-index")))
                                (:file "clauses")
                                (:file "variables")))
+                 (:file "encode")
+                 (:file "decode")
+                 (:file "package")
+                 (:file "syntax")
                  (:file "functions"))))
   :description ""
   :long-description

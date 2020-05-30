@@ -7,7 +7,8 @@
   :author ""
   :license ""
   :depends-on ("lang.cypher"
-               "prove")
+               "prove"
+               "alexandria")
   :components ((:module "tests"
                 :components
                 ((:test-file "lang.cypher"))))
